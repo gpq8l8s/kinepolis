@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    /* color */
+    --primary-color: #0055A4;
+    --primary-color-dark: #003B72;
+    --primary-color-light: #006ED5;
+    --primary-color-lighter: #33A1E3;
+    --primary-color-ultra-light: #80B7E8;
+    --primary-secondary: #D91D2A;
+    --primary-secondary-dark: #97141D;
+    --primary-secondary-light: #FF2536;
+    --primary-secondary-lighter: #FF5E75;
+    --primary-secondary-ultra-light: #FF9AA5;
+
+    /* color neutral */
+    --color-bg : #1A1A1A;
+    --color-bg-darker : #333333;
+    --color-bg-disabled : #4D4D4D;
+    --color-bg-caption : #666666;
+    --color-text-medium : #808080;
+    --color-text-darker : #B3B3B3;
+    --color-text-main : #E0E0E0; /*title*/
+    --color-text-light : #F7F7F7;
+
+
+    /* typo */
+    --font-family-title: "Roboto", serif;
+    --font-family-body: "Lato", serif;
+
+    /* font size */
+    --font-size-web-heading1 : 32pt; 
+    --font-size-web-heading2 : 28pt;
+    --font-size-web-heading3 : 24pt;
+    --font-size-web-heading4 : 20pt;
+    --font-size-heading5 : 16pt;
+    --font-size-heading6 : 14pt;
+    --font-size-app-heading1 :24pt;
+    --font-size-app-heading2 :22pt;
+    --font-size-app-heading3 :20pt;
+    --font-size-app-heading4 :18pt;
+    --font-size-body :16pt;
+    --font-size-body-light :14pt;
+    --font-size-body-small :12pt;
+    --font-size-interactive :16pt;
+    --font-size-interactive-small:14pt;
+
+    /* font weight */
+    /* Roboto - title */
+    --font-weight-heading1-2 : 700;
+    --font-weight-heading3-5 : 500;
+    --font-weight-basic: 400;
+    
+    /* Lato - body */
+    --font-weight-body-light : 300;
+    --font-weight-body-regular : 400;
+    --font-weight-body-bold : 700;
+
+    /* Space */
+    --space-letter : -1%;
+    --line-height : 120%;
+}
+
+*{
+    padding : 0;
+    margin : 0;
+    font-family : var(--font-family-body);
+    h1, h2, h3, h4, h5, h6 {
+        font-family : var(--font-family-title);
+        letter-spacing: var(--space-letter);
+        line-height: var(--line-height);
+    }
+}
+
+body {
+    background-color: var(--color-bg);
+}

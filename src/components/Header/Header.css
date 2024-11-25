@@ -1,0 +1,35 @@
+* {
+    font-family: var(--font-family-title);
+}
+
+.tab-bar {
+    display: flex;
+    margin: 2em 10.625em 2em 10.625em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo  {
+    width: 10em;
+    height: 2em;
+}
+
+.tab-bar-menu {
+    display: flex;
+    font-size: 1em;
+    color: var(--color-text-main);
+    ul{
+        padding: 1.313em;
+    }
+}
+
+
+
+.tab-bar-icons {
+    img {
+        padding: 0.5em;
+        color: var(--color-text-main);
+        width: 2em;
+        height: 2em;
+    }
+}

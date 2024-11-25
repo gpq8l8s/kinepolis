@@ -1,0 +1,98 @@
+* {
+    font-family: var(--font-family-body);
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-upper-text {
+    position: absolute;
+    align-items: center;
+    margin-left: 7.625em;
+    padding-top: 1em;
+    z-index: 10;
+    background-color: transparent;
+    /* color: var(--color-text-medium); */
+    ;
+    
+    .link-main-video {
+        color: var(--color-text-light);
+        font-size: var(--font-size-heading5);
+        font-family: var(--font-family-title);
+        text-decoration: none;
+    }
+    
+    .link-main-video:hover {
+        background-color: transparent;
+        color: var(--color-text-darker);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+
+.container-gradient-video{
+    position: relative;
+    width: 100%;
+    height: 44.938em;
+}
+
+.gradient-video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(26,26,26, 1), rgba(26,26,26, 0), rgba(26,26,26, 1));
+}
+
+.video-player {
+    height: 100%;
+    width: 100%;
+}
+
+
+.overlay {
+    height: 3em;
+    padding: 1em 4em;
+    width: 100%;
+    /* position: absolute; */
+    /* flex-direction:row; */
+    /* align-items: center; */
+    /* text-align: left; */
+    /* left: 10.625em; */
+    /* transform: translateX(-50%); */
+    /* bottom: 15%;
+    width: 16em; */
+    color: var(--color-text-main);
+    background-color: var(--color-bg-darker);
+
+    p {
+        padding-bottom: 1em;
+    }
+}
+    .button {
+        padding: 1em 1.5em;
+        background-color: var(--primary-color);
+        border-radius: 3px;
+        
+        button {
+            font-size: var(--font-size-body-light);
+            color: var(--color-text-main);
+            border-style: none;
+            background-color: transparent;
+        }
+    }
+
+.play-button-bottom-text {
+    font-weight: var(--font-size-heading5);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+/* .overlay, .play-button-bottom-text, button, button > img, .play-button-bottom-text > p, svg, .link-main-video {
+    background-color: transparent;
+} */
